@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spr="http://spring.cxf.baeldung.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <spr:register>
+         <!--Optional:-->
+         <arg0>
+            <!--Optional:-->
+            <name>jesn</name>
+         </arg0>
+      </spr:register>
+   </soapenv:Body>
+</soapenv:Envelope>
